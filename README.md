@@ -1,6 +1,11 @@
-Team 10 ADS505: Adapting Retail to Shifting Consumer BehaviorAuthors: Brianna Sanchez and Alexander Zhuk
+Team 10 ADS505: Adapting Retail to Shifting Consumer Behavior
+
+Authors: Brianna Sanchez and Alexander Zhuk
+
 GitHub Repository: https://github.com/briannasancheztop/ADS505_Consumerbehavior
+
 Programming Language: Python
+
 Dataset: Consumer Behavior and Shopping Habits Dataset
 
 Project Overview
