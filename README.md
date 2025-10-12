@@ -12,7 +12,7 @@ This project is a part of the ADS-505 course in the Applied Data Science Program
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn scipy dmba
 
-Usage
+**Usage**
 
 Clone this repository:
 git clone https://github.com/briannasancheztop/ADS505_Consumerbehavior.git
