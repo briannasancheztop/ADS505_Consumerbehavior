@@ -14,6 +14,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn scipy dmba
 
 **Usage**
 
+
 Clone this repository:
 git clone https://github.com/briannasancheztop/ADS505_Consumerbehavior.git
 
@@ -68,10 +69,9 @@ Size: 3,900 transactions × 18 features
 Format: CSV file (shopping_behavior_updated.csv)
 
 Research Questions & Hypotheses
-Primary Question:
 Can demographic and transactional features predict high-value customers (top 25% by purchase amount)?
-Hypotheses Tested:
 
+Hypotheses Tested:
 Online vs. in-store channel preference differs by age group
 Subscription/loyalty status correlates with higher spending
 Review ratings predict repeat purchase behavior
@@ -79,7 +79,6 @@ Promotional discounts increase average order value
 Demographic features (age, gender) significantly impact spending patterns
 
 Research Questions & Hypotheses
-Primary Question:
 Can demographic and transactional features predict high-value customers (top 25% by purchase amount)?
 Hypotheses Tested:
 
@@ -90,6 +89,7 @@ Promotional discounts increase average order value
 Demographic features (age, gender) significantly impact spending patterns
 
 Analysis & Modeling Approach
+
 1. Exploratory Data Analysis
 
 Distribution analysis of purchase amounts, age, and categories
@@ -134,11 +134,10 @@ Statistical Evidence:
 
 No significant differences in spending across age, gender, subscription status, or discount usage (all p > 0.26)
 Near-zero correlations between numeric features and high-value status (r ≈ 0.02–0.04)
-Promotions drive transaction volume but not order value ($60.13 without discount vs. $59.28 with)
 
 Roadblocks & Challenges
 
-Homogeneous Spending Patterns: All customer segments spend approximately $60/transaction, making differentiation extremely difficult
+All customer segments spend approximately $60/transaction, making differentiation extremely difficult
 Lack of Temporal Data: Dataset lacks purchase recency, seasonality trends, and customer lifetime value metrics
 Weak Feature Signals: Demographic and behavioral features show minimal predictive power
 Class Imbalance: Top 25% threshold creates natural imbalance (75% vs. 25% split)
@@ -146,7 +145,7 @@ Limited Model Performance: Even with ensemble methods and class weighting, preci
 
 Business Recommendations
 
-Prioritize Digital Investment: Focus 83% of resources on e-commerce optimization
+Focus 83% of resources on e-commerce optimization
 Scale Back Physical Footprint: 17% in-store revenue suggests aggressive store consolidation
 Avoid Demographic Segmentation: No statistical evidence supports age/gender-based targeting
 Enhance Data Collection: Implement tracking for purchase recency, CLV, and time-series behavior
