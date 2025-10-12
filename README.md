@@ -159,6 +159,5 @@ Acknowledgments
 
 University of San Diego - ADS-505 Applied Data Science course
 Kaggle - For providing the Consumer Behavior and Shopping Habits Dataset
-Course Instructors - For guidance on statistical modeling and business analytics
 dmba Library Contributors - For classification evaluation tools (gains/lift charts)
 scikit-learn Community - For comprehensive machine learning documentation
