@@ -65,11 +65,11 @@ Project Description
 Dataset Overview
 
 Source: Kaggle - Consumer Behavior and Shopping Habits Dataset
-Size: 3,900 transactions × 18 features
+Size: 3,900 transactions and 18 features
 Format: CSV file (shopping_behavior_updated.csv)
 
 Research Questions & Hypotheses
-Can demographic and transactional features predict high-value customers (top 25% by purchase amount)?
+Can demographic and transactional features predict high-value customers top 25% by purchase amount?
 
 Hypotheses Tested:
 Online vs. in-store channel preference differs by age group
@@ -79,7 +79,7 @@ Promotional discounts increase average order value
 Demographic features (age, gender) significantly impact spending patterns
 
 Research Questions & Hypotheses
-Can demographic and transactional features predict high-value customers (top 25% by purchase amount)?
+Can demographic and transactional features predict high-value customers top 25% by purchase amount?
 Hypotheses Tested:
 
 Online vs. in-store channel preference differs by age group
@@ -106,13 +106,13 @@ Derived Channel feature from shipping type (Store Pickup = In-Store, else = Onli
 
 3. Statistical Testing
 
-Chi-square tests for categorical associations (age × channel, category × channel, promo × channel)
-Independent t-tests for spending differences (subscribers vs. non-subscribers, discount vs. no discount)
+Chi-square tests for categorical associations
+Independent t-tests for spending differences 
 Correlation analysis for numeric predictors
 
 4. Predictive Modeling
 
-Train/Validation/Test Split: 60% / 20% / 20%
+Train/Validation/Test Split: 60%, 20%,  20%
 Models Evaluated:
 
 Logistic Regression with L2 regularization (5-fold CV, class weighting)
@@ -124,23 +124,23 @@ Evaluation Metrics: Accuracy, Precision, Recall, F1-Score, Confusion Matrix, Gai
 Key Findings
 Channel Behavior:
 
-83% of revenue comes from online purchases (17% in-store)
-Average transaction value identical across channels (~$60)
+83% of revenue comes from online purchases and 17% in-store
+Average transaction value identical across channels being $60
 All age cohorts show 80%+ online preference, contradicting traditional retail assumptions
 
 Critical Insight:
 26% precision means the model incorrectly identifies high-value customers 75% of the time, making it unreliable for practical targeting.
 Statistical Evidence:
 
-No significant differences in spending across age, gender, subscription status, or discount usage (all p > 0.26)
-Near-zero correlations between numeric features and high-value status (r ≈ 0.02–0.04)
+No significant differences in spending across age, gender, subscription status, or discount usage
+Near-zero correlations between numeric features and high-value status
 
 Roadblocks & Challenges
 
 All customer segments spend approximately $60/transaction, making differentiation extremely difficult
 Lack of Temporal Data: Dataset lacks purchase recency, seasonality trends, and customer lifetime value metrics
 Weak Feature Signals: Demographic and behavioral features show minimal predictive power
-Class Imbalance: Top 25% threshold creates natural imbalance (75% vs. 25% split)
+Class Imbalance: Top 25% threshold creates natural imbalance
 Limited Model Performance: Even with ensemble methods and class weighting, precision remained below acceptable thresholds for business use
 
 Business Recommendations
